@@ -1,0 +1,16 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# build output
+/build
+/dist
+
+# misc
+.DS_Store
+.env
+.vscode
+.vercel
+*.log
+.next
