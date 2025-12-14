@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sowmya Kumari - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <div class="sidebar-content">
+                <!-- Photo -->
+                <div class="profile-photo">
+                    <img src="public/profile.jpg" alt="Sowmya Kumari">
+                </div>
+
+                <!-- Navigation Links -->
+                <nav class="nav-menu">
+                    <a href="#home" class="nav-link active" data-section="home">Home</a>
+                    <a href="#about" class="nav-link" data-section="about">About</a>
+                    <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                    <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                    <a href="#certifications" class="nav-link" data-section="certifications">Certifications</a>
+                    <a href="#achievements" class="nav-link" data-section="achievements">Achievements</a>
+                    <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+                </nav>
+
+                <!-- Dark Mode Toggle -->
+                <div class="theme-toggle">
+                    <button id="themeBtn" class="toggle-btn" aria-label="Toggle dark mode">
+                        <span class="toggle-icon">🌙</span>
+                    </button>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="content">
+            <!-- Home Section -->
+            <section id="home" class="section hero-section">
+                <div class="hero-content">
+                    <h1>Sowmya Kumari</h1>
+                    <p class="subtitle">Data Science Enthusiast</p>
+                    <p class="description">Building intuitive web interfaces and analyzing data meaningfully</p>
+                </div>
+            </section>
+<!-- About Section -->
+<section id="about" class="section">
+    <h2 class="section-title">About</h2>
+    <p>
+        I’m a passionate tech enthusiast with a strong interest in web development and data analysis. 
+        I enjoy building clean, user-friendly applications and sharing my knowledge by teaching and mentoring others while solving real-world problems using technology.
+    </p>
+
+    <h3 class="subsection-title">Education</h3>
+    <p>
+        <strong>B.Tech in Computer Science</strong><br>
+        Institute of Aeronautical Engineering, Hyderabad<br>
+        <span class="edu-year">2023 – 2027</span><br>
+        <span class="edu-cgpa">CGPA: 8.79</span>
+    </p>
+
+    <p>
+        <strong>Intermediate (MPC)</strong><br>
+        Sri Chaitanya IIT Academy, Hyderabad<br>
+        <span class="edu-cgpa">CGPA: 9.3</span>
+    </p>
+</section>
+
+
+
+            <!-- Projects Section -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-grid">
+
+        <div class="project-card">
+            <h3>Diabetes Prediction System</h3>
+            <p>
+                A full-stack machine learning application that predicts diabetes risk based on user health inputs. 
+                The model is deployed using Docker and integrated with a React-based frontend for seamless user interaction.
+            </p>
+            <div class="project-tags">
+                <span class="tag">React.js</span>
+                <span class="tag">Machine Learning</span>
+                <span class="tag">Docker</span>
+                <span class="tag">Python</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>Automated Resume Shortlisting System</h3>
+            <p>
+                An intelligent resume screening system that uses machine learning and NLP techniques to analyze and rank resumes 
+                based on job descriptions. Built with Streamlit for interactive visualization and evaluation.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Machine Learning</span>
+                <span class="tag">NLP</span>
+                <span class="tag">Streamlit</span>
+                <span class="tag">Python</span>
+            </div>
+        </div>
+
+        <div class="project-card">
+            <h3>FunGames – Java Desktop Application</h3>
+            <p>
+                A collection of interactive mini-games developed using Core Java with Swing and Applets, 
+                focusing on logic building, event handling, and user-friendly desktop interfaces.
+            </p>
+            <div class="project-tags">
+                <span class="tag">Core Java</span>
+                <span class="tag">Swing</span>
+                <span class="tag">Applets</span>
+               
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+           <!-- Skills Section -->
+<section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+    
+    <h3 class="subsection-title">Programming Languages</h3>
+    <div class="skills-pills">
+        <span class="pill">Java (90%)</span>
+        <span class="pill">Python (85%)</span>
+        
+        <span class="pill">SQL (75%)</span>
+    </div>
+
+    <h3 class="subsection-title">Data & Visualization</h3>
+    <div class="skills-pills">
+        <span class="pill">Data Analysis</span>
+        <span class="pill">Power BI</span>
+        <span class="pill">Data Visualization</span>
+        <span class="pill">Data Science</span>
+    </div>
+
+    <h3 class="subsection-title">Web Development</h3>
+    <div class="skills-pills">
+        <span class="pill">HTML</span>
+        <span class="pill">CSS</span>
+        <span class="pill">React.js</span>
+        <span class="pill">JavaScript</span>
+        <span class="pill">Bootstrap</span>
+    </div>
+
+    <h3 class="subsection-title">Cloud & DevOps (Basics)</h3>
+    <div class="skills-pills">
+        <span class="pill">Cloud Computing Fundamentals</span>
+        <span class="pill">Docker</span>
+        <span class="pill">CI/CD Basics</span>
+    </div>
+
+    <h3 class="subsection-title">Tools & Platforms</h3>
+    <div class="skills-pills">
+        <span class="pill">VS Code</span>
+        <span class="pill">Git</span>
+        <span class="pill">GitHub</span>
+        <span class="pill">Streamlit</span>
+        <span class="pill">Jupyter Notebook</span>
+    </div>
+</section>
+
+
+            <!-- Certifications Section -->
+            <section id="certifications" class="section">
+                <h2 class="section-title">Certifications</h2>
+                <div class="certifications-table">
+                    <div class="table-header">
+                        <div class="table-cell cert-name">Certificate Name</div>
+                        <div class="table-cell cert-org">Issuing Organization</div>
+                        <div class="table-cell cert-date">Date</div>
+                    </div>
+
+                    <div class="table-row">
+                        <div class="table-cell cert-name">IBM Data Science Professional Certificate</div>
+                        <div class="table-cell cert-org">Coursera / IBM</div>
+                        <div class="table-cell cert-date">2024</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell cert-name">NPTEL Programming in Java</div>
+                        <div class="table-cell cert-org">IIT Kharagpur</div>
+                        <div class="table-cell cert-date">2023</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell cert-name">NPTEL DSA in Java</div>
+                        <div class="table-cell cert-org">IIT Kharagpur</div>
+                        <div class="table-cell cert-date">2023</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell cert-name">Power BI Certification</div>
+                        <div class="table-cell cert-org">Microsoft</div>
+                        <div class="table-cell cert-date">2024</div>
+                    </div>
+                    <div class="table-row">
+                        <div class="table-cell cert-name">Data Analysis & ML Foundations</div>
+                        <div class="table-cell cert-org">Coursera</div>
+                        <div class="table-cell cert-date">2024</div>
+                    </div>
+                </div>
+
+               <section id="certifications" class="section">
+    <h2 class="section-title">Certifications</h2>
+    <div class="certifications-table">
+        <div class="table-header">
+            <div class="table-cell cert-name">Certificate Name</div>
+            <div class="table-cell cert-org">Issuing Organization</div>
+            <div class="table-cell cert-date">Year</div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell cert-name">Programming in Java</div>
+            <div class="table-cell cert-org">NPTEL – IIT Kharagpur</div>
+            <div class="table-cell cert-date">2023</div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell cert-name">Data Structures & Algorithms with Java</div>
+            <div class="table-cell cert-org">NPTEL – IIT Kharagpur</div>
+            <div class="table-cell cert-date">2023</div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell cert-name">Data Analysis with Python</div>
+            <div class="table-cell cert-org">IBM – Coursera</div>
+            <div class="table-cell cert-date">2024</div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell cert-name">Databases and SQL for Data Science with Python</div>
+            <div class="table-cell cert-org">IBM – Coursera</div>
+            <div class="table-cell cert-date">2024</div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell cert-name">Data Analysis and Visualization using Power BI</div>
+            <div class="table-cell cert-org">IBM</div>
+            <div class="table-cell cert-date">2024</div>
+        </div>
+
+        <div class="table-row">
+            <div class="table-cell cert-name">AI-ML Virtual Internship (AWS)</div>
+            <div class="table-cell cert-org">Eduskills Foundation</div>
+            <div class="table-cell cert-date">2024</div>
+        </div>
+    </div>
+
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="section">
+                <h2 class="section-title">Contact</h2>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <span class="contact-label">Email:</span>
+                        <a href="mailto:sowmyakumari612@gmail.com">sowmyakumari612@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <span class="contact-label">LinkedIn:</span>
+                        <a href="https://www.linkedin.com/in/sowmya-kumari-264482295/ target="_blank">Click Here</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-label">GitHub:</span>
+                        <a href="https://github.com/samkumari" target="_blank">Click Here</a>
+                    </div>
+                    
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
